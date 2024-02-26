@@ -32,3 +32,34 @@ INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/main.c
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:52] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [21/Feb/2023 23:01:57] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.105:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:26:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:26:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:26:43] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.105:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:34:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:35:14] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.105:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:41:18] "GET / HTTP/1.1" 200 -
+INFO:root:document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:41:30] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:42:42] "GET / HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.105:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:44:55] "GET / HTTP/1.1" 200 -
+INFO:root:document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:45:03] "POST /review HTTP/1.1" 200 -
+INFO:root:document must be an instance of dict, bson.son.SON, bson.raw_bson.RawBSONDocument, or a type that inherits from collections.MutableMapping
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:46:07] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.105:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:46:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2024 14:46:53] "POST /review HTTP/1.1" 200 -

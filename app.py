@@ -46,7 +46,9 @@ def index():
 
                             # download each image and save it to the specified directory
                     del image_tags[0]
+
                     for image_tag in image_tags:
+                        
                                 # get the image source URL
                                 image_url = image_tag['src']
                                 #print(image_url)
@@ -55,8 +57,12 @@ def index():
                                 image_data = requests.get(image_url).content
                                 with open(os.path.join(save_directory, f"{query}_{image_tags.index(image_tag)}.jpg"), "wb") as f:
                                     f.write(image_data)
+                
+                
 
-                    return "image laoded"
+                    
+   
+                    return "image loaded"
                 except Exception as e:
                     logging.info(e)
                     return 'something is wrong'
